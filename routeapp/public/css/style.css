@@ -1,0 +1,19 @@
+.text-center {
+  text-align: center;
+}
+li span {
+  float: right;
+  cursor: pointer;
+}
+.fade {
+  transition: 1s linear all;
+  -webkit-transition: 1s linear all;
+}
+#contenedor {
+   width: 30%;
+  margin: 0 auto;
+}
+
+.fade.ng-enter {
+  opacity: 0;
+}
